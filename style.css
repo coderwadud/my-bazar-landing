@@ -975,6 +975,8 @@ label {
 
 .navbar.fixed-top {
   background-color: var(--clr-white);
+  -webkit-box-shadow: 0px 4px 100px rgba(0, 0, 69, 0.1);
+          box-shadow: 0px 4px 100px rgba(0, 0, 69, 0.1);
 }
 
 .navbar .navbar-brand .logo-display {
@@ -1134,7 +1136,7 @@ button.navbar-toggler:focus {
   height: 100%;
   width: 100%;
   background-color: #151536;
-  opacity: 0.8;
+  opacity: 0.9;
   top: 0;
   left: 0;
   content: "";

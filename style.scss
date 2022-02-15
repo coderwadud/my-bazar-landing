@@ -2104,3 +2104,39 @@ footer::before{
 .last-section{
   padding-bottom: 250px;
 }
+
+
+@media only screen and (max-width: 575px) {
+	.hero-single .hero-content .hero-btn {
+		justify-content: flex-start;
+		margin-top: 2rem;
+		flex-direction: row;
+		align-items: flex-start;
+	}
+  .hero-single .hero-content .hero-title{
+    height: 90px;
+    text-align: center;
+    span{
+      display: block;
+    }
+  }
+  .btn-black{
+    width: 140px !important;
+    padding: 5px !important;
+    height: 40px;
+    border-radius: 5px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-btn a{
+    font-size: 20px;
+    padding: 5px !important;
+    width: 140px !important;
+    height: 40px;
+    border-radius: 5px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

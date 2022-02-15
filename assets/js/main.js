@@ -254,10 +254,10 @@
 		/* ==================================================
 			Preloader Init
 		 ===============================================*/
-		$(window).on('load', function() {
-			// Animate loader off screen
-			$(".se-pre-con").fadeOut("slow");
-		});
+		// $(window).on('load', function() {
+		// 	// Animate loader off screen
+		// 	$(".se-pre-con").fadeOut("slow");
+		// });
 
 
 		/* ==================================================
